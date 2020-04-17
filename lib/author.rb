@@ -1,9 +1,8 @@
 class Author 
-  attr_accessible :name, :genre 
+  attr_accessible :name 
   
-  def initialize(name,genre)
+  def initialize(name)
     @name = name
-    @genre = genre
   end
 end  
     
